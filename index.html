@@ -41,34 +41,10 @@
 </head>
 <body class="font-manrope">
     <!-- Nav Bar -->
-    <nav class="container mx-auto bg-[]">
+    <nav class="container mx-auto">
         <div class="navbar bg-base-100">
             <div class="navbar-start">
-            <div class="dropdown">
-                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor">
-                    <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M4 6h16M4 12h8m-8 6h16" />
-                </svg>
-                </div>
-                <ul
-                tabindex="0"
-                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                <li><a>Home</a></li>
-                <li><a>Services</a></li>
-                <li><a>Portfolio</a></li>
-                <li><a>Blogs</a></li>
-                <li><a>Contact Us</a></li>
-                </ul>
-            </div>
+            
             <a class="btn btn-ghost text-xl"><div class="bg-color-primary rounded-full w-8 h-8 flex items-center justify-center"><i class="fa-solid fa-arrow-right p-1 -rotate-45"></i></div>Rinterio</a>
             </div>
             <div class="navbar-center hidden lg:flex">
@@ -83,9 +59,28 @@
 
             <!-- Nav Bar Right Endings -->
             <div class="navbar-end space-x-3">
+                <!-- Searchbar, Cart, Button -->
+                <div class="hidden lg:flex justify-center items-center gap-3">
                 <div class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow-md"><i class="fa-solid fa-magnifying-glass text-gray-500"></i></div>
                 <div class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow-md"><i class="fa-solid fa-cart-shopping text-gray-500"></i></div>
                 <div><a class="btn rounded-full bg-color-primary text-[#1C1C1C] text-lg font-bold">Book Consult <div class="bg-color-secondary rounded-full w-8 h-8 flex items-center justify-center"><i class="fa-solid fa-arrow-right p-1 -rotate-45 text-white"></i></div></a></div>
+            </div>
+                <!-- Bar -->
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <div class="bg-white rounded-full w-8 h-8 flex items-center justify-center shadow-md"><i class="fa-solid fa-bars text-gray-500"></i></div>
+                    </div>
+                    <ul
+                    tabindex="0"
+                    class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                    <li><a>Home</a></li>
+                    <li><a>Services</a></li>
+                    <li><a>Portfolio</a></li>
+                    <li><a>Blogs</a></li>
+                    <li><a>Contact Us</a></li>
+                    </ul>
+                </div>
+            
             </div>
         </div>
     </nav>
