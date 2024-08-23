@@ -1,3 +1,7 @@
 <div class="bg-color-primary rounded-full w-8 h-8 flex items-center justify-center"><i class="fa-solid fa-arrow-right p-1 -rotate-45"></i></div>
 
 border-solid border-2 border-red-600
+
+https://shemanto27.github.io/assignment-3-taiwindcss/
+
+https://github.com/shemanto27/assignment-3-taiwindcss
