@@ -72,7 +72,7 @@
                     </div>
                     <ul
                     tabindex="0"
-                    class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                    class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow right-0">
                     <li><a>Home</a></li>
                     <li><a>Services</a></li>
                     <li><a>Portfolio</a></li>
@@ -104,45 +104,59 @@
     <!-- Main -->
     <main class=" mx-auto">
         <!------------------ Thoughtful Section------------- -->
-        <section class="bg-[#f4f4f4] p-10">
-            <!-- Headings -->
-            <div class="space-y-5  w-full relative text-center gap-4">
-                <img src="./assets/Vector.png" alt="arrow" class="hidden absolute -top-8 -left-12">
-                <button class="rounded-full bg-white h-8 w-40 space-x-2 text-[#494949]"><i class="fa-solid fa-arrow-right"></i><span class="text-lg font-bold">About Us</span></button>
-                <h2 class="text-4xl font-extrabold">We design thoughtful, liveable spaces</h2>
-                <p class="text-sm text-[#494949]">The barn house captivates with its blend of rustic charm and 
+        <section class="bg-[#f4f4f4] lg:py-16 py-10 lg:px-40 px-10 flex flex-col lg:flex-row gap-5">
+        
+            <!-- Left Section -->
+            <div class="flex flex-col gap-5 lg:w-1/2">
+    
+                <!-- Headings -->
+                <div class="lg:flex lg:flex-col lg:w-[530px] space-y-5 relative text-center gap-4">
+                    <img src="./assets/Vector.png" alt="arrow" class="hidden lg:flex lg:justify-start absolute -top-8 -left-12">
+                    <button class=" rounded-full bg-white h-8 w-40 space-x-2 text-[#494949]"><i class="fa-solid fa-arrow-right"></i><span class="text-lg font-bold">About Us</span></button>
+                    <h2 class="text-4xl font-extrabold lg:text-left">We design thoughtful, liveable spaces</h2>
+                    <p class="text-sm text-[#494949] lg:text-left">The barn house captivates with its blend of rustic charm and 
                     modern sophistication, featuring weathered wood, sleek metal accents.</p>
-            </div>
-            <!-- Container -->
-            <div class="grid grid-cols-1 md:grid-cols-2 lg: text-center gap-4">
-                
-                        <!-- card-1 -->
-                    <div class="flex rounded-xl bg-white space-y-4 items-center p-2 gap-3 text-left">
-                        <div><img src="./assets/commercial.png" alt="Commercial"></div>
-                        <div>
+                </div>
+    
+                <!-- card-1 -->
+                <div class="flex rounded-xl bg-white space-y-4 items-center p-2 lg:p-5 gap-3 text-left">
+                    <div>
+                        <img src="./assets/commercial.png" alt="Commercial">
+                    </div>
+                    
+                    <div>
                         <h6 class="text-lg font-bold">Commercial</h6>
                         <p class="text-sm text-[#494949]">The barn house captivates with its blend of rustic charm and modern.</p>
-                        </div>
                     </div>
-                    <!-- card-2 -->
-                    <div class="flex rounded-xl bg-white space-y-4 items-center p-2 gap-3 text-left">
-                        <div><img src="./assets/residential.png" alt="Residential"></div>
-                        <div>
+                </div>
+    
+                <!-- card-2 -->
+                <div class="flex rounded-xl bg-white space-y-4 items-center p-2 lg:p-5 gap-3 text-left">
+                    <div>
+                        <img src="./assets/residential.png" alt="Commercial">
+                    </div>
+                    
+                    <div>
                         <h6 class="text-lg font-bold">Residential</h6>
                         <p class="text-sm text-[#494949]">The barn house captivates with its blend of rustic charm and modern.</p>
-                        </div>
                     </div>
-                
-
-                <!-- Right Image Content -->
-                <div class="w-full md:col-span-2">
-                    <img src="./assets/Rectangle.png" alt="" class="object-cover w-full">
+                </div>
+    
+            </div>
+    
+            <!-- Right Section -->
+            <div class="lg:w-1/2">
+                <!--Image Content -->
+                <div class="w-full">
+                    <img src="./assets/Rectangle.png" alt="" class="object-cover w-full h-72 lg:h-[530px] rounded-2xl">
                 </div>
             </div>
+    
+    
         </section>
 
         <!----------------- Work Process Section------------- -->
-        <section class="bg-[#f4f4f4] p-10">
+        <section class="bg-[#f4f4f4] lg:py-16 py-10 lg:px-40 px-10">
         <!-- Section Container -->
         <div class="space-y-10 text-center">
             <!-- writings -->
@@ -186,7 +200,7 @@
         </section>
 
         <!--------------- Latest Portfolio Section------------- -->
-        <section class="bg-[#ffffff] m-10">
+        <section class="bg-[#ffffff] lg:py-16 py-10 lg:px-40 px-10">
             <!-- Section Container -->
             <div class="space-y-10 text-center">
                 <!-- writings -->
@@ -254,7 +268,7 @@
         </section>
 
         <!--------------- Article and News Section------------- -->
-        <section  class="bg-[#f4f4f4] mt-10 p-10">
+        <section  class="bg-[#f4f4f4] lg:py-16 py-10 lg:px-40 px-10">
             <!-- Section Container -->
             <div class="space-y-10 text-center">
                 <!-- writings -->
@@ -321,7 +335,7 @@
             </section>
 
         <!--------------- Contact Form Section------------- -->
-        <section  class="bg-[url('./assets/bg.jpg')] mt-10 p-10">
+        <section  class="bg-[url('./assets/bg.jpg')] bg-no-repeat bg-cover lg:py-16 py-10 lg:px-40 px-10">
             <!-- Section Container -->
             <div class="space-y-10 text-center">
                 <!-- writings -->
@@ -338,7 +352,7 @@
                             <div class="m-3"><input type="text" placeholder="Last Name*" required class="rounded-full p-5 w-full h-12"></div>
                             <div class="m-3"><input type="text" placeholder="Phone Number*" required class="rounded-full p-5 w-full h-12"></div>
                             <div class="m-3"><input type="text" placeholder="Email Number*" required class="rounded-full p-5 w-full h-12"></div>
-                            <div class="m-3 md:w-full md:col-span-2"><textarea placeholder="Write your message here" rows="10" class="rounded-3xl p-5 col-span-2 w-full"></textarea></div>
+                            <div class="m-3 md:w-full md:col-span-2"><textarea placeholder="Write your message here" rows="10" class="rounded-3xl p-5 col-span-2 w-full resize-none"></textarea></div>
                             <div class="m-3 md:col-span-2 "><button type="submit" class="btn rounded-full bg-color-primary text-[#1C1C1C] text-lg font-bold md:w-full">Book Consult <div class="bg-color-secondary rounded-full w-8 h-8 flex items-center justify-center"><i class="fa-solid fa-arrow-right p-1 -rotate-45 text-white"></i></div></button></div>
                     </form>
                 </div>
@@ -347,7 +361,7 @@
     </main>
 
     <!-- Footer -->
-    <footer class="bg-[#1C1C1C] mt-10 p-10">
+    <footer class="bg-[#1C1C1C] lg:py-16 py-10 lg:px-40 px-10">
         <div class="flex flex-col justify-center items-center gap-5 text-center">
             <a class="btn btn-ghost text-xl text-white"><div class="bg-color-primary rounded-full w-8 h-8 flex items-center justify-center"><i class="fa-solid fa-arrow-right p-1 -rotate-45 text-[#1C1C1C]"></i></div>Rinterio</a>
             <p class="text-sm text-[#737373]">The barn house captivates with its blend of rustic charm and modern sophistication,<br>featuring weathered wood, sleek metal accents.</p>
